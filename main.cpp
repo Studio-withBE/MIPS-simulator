@@ -89,6 +89,9 @@ init_reg (string file_name)
 
 	while (!file.eof())
 	{
+		if (i >= 32)
+			break;
+
 		string temp;
 		file >> temp;
 

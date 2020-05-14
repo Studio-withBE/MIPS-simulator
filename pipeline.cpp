@@ -297,8 +297,6 @@ EX ()
 
 		if (mode == 1)
 			internal_reg[Result.rd] = Result.result;
-		else
-			cpu_reg[Result.rd] = Result.result;
 	}
 
 	else if (temp.type == I_TYPE)
